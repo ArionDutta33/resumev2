@@ -209,6 +209,36 @@ const Index = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium mb-1">
+                        Experience
+                      </label>
+                      <textarea
+                        placeholder="Write about your relevant experience"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                        rows={2}
+                      ></textarea>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-1">
+                        Education
+                      </label>
+                      <input
+                        type="education"
+                        placeholder="Bachelor's in technology"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-1">
+                        Skills
+                      </label>
+                      <input
+                        type="skills"
+                        placeholder="Add relevant skills"
+                        className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-1">
                         Summary
                       </label>
                       <textarea
